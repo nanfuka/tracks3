@@ -9,8 +9,8 @@ class DatabaseConnection:
         self.db_name = 'reporti'
 
         self.connection = psycopg2.connect(
-            dbname=dajqodokdnifgh, user=othsyuhamimgtq, host=ec2-107-22-238-186.compute-1.amazonaws.com,
-            password=51e8b82ad6b3998bf3e7f80b12d40ffc449b6d74086f4fb1cf74c246716b4bef, port=5432)
+            dbname="dajqodokdnifgh", user="othsyuhamimgtq", host="ec2-107-22-238-186.compute-1.amazonaws.com",
+            password="51e8b82ad6b3998bf3e7f80b12d40ffc449b6d74086f4fb1cf74c246716b4bef", port=5432)
         self.connection.autocommit = True
         self.cursor = self.connection.cursor(
             cursor_factory=psycopg2.extras.RealDictCursor)
