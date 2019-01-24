@@ -1,0 +1,12 @@
+Host
+ec2-107-22-238-186.compute-1.amazonaws.com
+Database
+dajqodokdnifgh
+User
+othsyuhamimgtq
+Port
+5432
+Password
+51e8b82ad6b3998bf3e7f80b12d40ffc449b6d74086f4fb1cf74c246716b4bef
+URI
+postgres://othsyuhamimgtq:51e8b82ad6b3998bf3e7f80b12d40ffc449b6d74086f4fb1cf74c246716b4bef@ec2-107-22-238-186.compute-1.amazonaws.com:5432/dajqodok
